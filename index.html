@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Abhinand Shah — GIS Analyst & Geomatics Engineer | Spatial Analysis, Cartography & Web Mapping</title>
+  <meta name="description" content="Portfolio of Abhinand Shah, a GIS Analyst and Geomatics Engineer based in Nepal, specializing in spatial analysis, cartography, web mapping and geospatial data science.">
+  <meta name="keywords" content="GIS Analyst, Geomatics Engineer, Spatial Data Scientist, Web Mapping, Cartography, GIS Portfolio Nepal">
+  <link rel="canonical" href="https://abhinandshah.com.np/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Abhinand Shah — GIS Analyst & Geomatics Engineer">
+  <meta property="og:description" content="Spatial analysis, cartography and web mapping portfolio — GIS Analyst based in Nepal.">
+  <meta property="og:image" content="https://abhinandshah.com.np/images/og-cover.jpg">
+  <meta property="og:url" content="https://abhinandshah.com.np/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Abhinand Shah — GIS Analyst & Geomatics Engineer">
+  <meta name="twitter:description" content="Spatial analysis, cartography and web mapping portfolio — GIS Analyst based in Nepal.">
+  <meta name="twitter:image" content="https://abhinandshah.com.np/images/og-cover.jpg">
+
+
+  <!-- Icon font -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Abhinand Shah",
+    "jobTitle": "GIS Analyst",
+    "description": "GIS Analyst and Geomatics Engineer specializing in spatial analysis, cartography, and web mapping.",
+    "url": "https://abhinandshah.com.np/",
+    "email": "mailto:shahabhinand@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Biratnagar",
+      "addressRegion": "Koshi Province",
+      "addressCountry": "NP"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/abhinand-shah/"
+    ]
+  }
+  </script>
+
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+
+  <!-- Fonts: Fraunces (display) + IBM Plex Sans (body) + IBM Plex Mono (coordinates/data) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= HEADER / NAV ================= -->
+  <header class="site-header" id="site-header">
+    <div class="wrap header-inner">
+      <a href="#top" class="brand" aria-label="Abhinand Shah — home">
+        <span class="brand-mark" aria-hidden="true">AS</span>
+        <span class="brand-name">Abhinand Shah</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#content">Content</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-controls">
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to light theme" aria-pressed="false">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile">
+      <ul>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#content">Content</a></li>
+          <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top" aria-label="Introduction">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="hero-kicker">GIS Analyst · Geomatics Engineer · Biratnagar, Nepal</p>
+          <h1>Turning spatial data<br>into decisions.</h1>
+          <p class="hero-lede">
+            I build municipal GIS platforms and cadastral mapping systems — from
+            drone-based digitization through to the web map a planner actually opens.
+            Most recently: a five-module WebGIS platform covering 39,575 cadastral
+            parcels for Biratnagar Municipality.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">View projects</a>
+            <a href="cv-resume.pdf" class="btn btn-ghost" download>Download CV</a>
+          </div>
+
+          <p class="availability"><span class="availability-dot" aria-hidden="true"></span>Open to GIS Analyst roles &amp; spatial data projects</p>
+
+          <ul class="focus-tags" aria-label="Areas of focus">
+            <li>GIS &amp; Spatial Analysis</li>
+            <li>Remote Sensing</li>
+            <li>WebGIS</li>
+            <li>Urban &amp; Land Planning</li>
+            <li>Cadastral Mapping</li>
+            <li>UAV / Drone Mapping</li>
+            <li>3D GIS Visualization</li>
+          </ul>
+        </div>
+
+        <div class="hero-map-frame" aria-hidden="false">
+          <div class="map-tick tick-nw"><span>26.47°N</span></div>
+          <div class="map-tick tick-ne"><span>87.30°E</span></div>
+          <div class="map-tick tick-sw"><span>87.24°E</span></div>
+          <div class="map-tick tick-se"><span>26.43°N</span></div>
+          <div id="hero-map" class="hero-map" role="img" aria-label="Interactive map centered on Biratnagar, Nepal"></div>
+          <p class="map-caption">Live map · Biratnagar, Koshi Province — pan and zoom</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="skills-heading">Capabilities</h2>
+          <p>The tools and methods behind each project below.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3 3 6v15l6-3 6 3 6-3V3l-6 3-6-3Z"/><path d="M9 3v15M15 6v15"/></svg>
+            <h3>GIS &amp; Remote Sensing</h3>
+            <ul>
+              <li>QGIS</li>
+              <li>ArcGIS / ArcGIS Pro</li>
+              <li>SAS Planet</li>
+              <li>UAV / drone mapping</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-4 4"/></svg>
+            <h3>Spatial Analysis</h3>
+            <ul>
+              <li>Cadastral &amp; land-use mapping</li>
+              <li>Georeferencing</li>
+              <li>Orthomosaic, DSM/DTM &amp; contours</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 4 5.5 4 9s-1.5 6.5-4 9c-2.5-2.5-4-5.5-4-9s1.5-6.5 4-9Z"/></svg>
+            <h3>Web Mapping</h3>
+            <ul>
+              <li>Python · Flask</li>
+              <li>Leaflet.js · OpenLayers</li>
+              <li>GeoJSON</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 9-5 3 5 3M16 9l5 3-5 3M13 5l-2 14"/></svg>
+            <h3>CAD &amp; 3D Visualization</h3>
+            <ul>
+              <li>AutoCAD</li>
+              <li>SketchUp</li>
+              <li>Enscape · Twinmotion</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STATS STRIP ================= -->
+    <!-- All figures below are real, drawn from delivered project work. -->
+    <section class="stats-strip" aria-label="Project figures">
+      <div class="wrap stats-grid">
+        <div class="stat"><span class="stat-num">39,575</span><span class="stat-label">cadastral parcels live in one WebGIS</span></div>
+        <div class="stat"><span class="stat-num">423.1 km</span><span class="stat-label">road network mapped &amp; classified</span></div>
+        <div class="stat"><span class="stat-num">445+ km²</span><span class="stat-label">georeferenced across 4 municipalities</span></div>
+        <div class="stat"><span class="stat-num">2</span><span class="stat-label">municipalities on QR-coded house numbering</span></div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURED WORK ================= -->
+    <section class="section featured" id="work" aria-labelledby="featured-heading">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="featured-heading">Featured work</h2>
+          <p>One flagship platform in depth, then the field and desktop GIS work behind it. Every project opens a full image gallery.</p>
+        </div>
+
+        <!-- Flagship: interactive project explorer -->
+        <article class="fp" aria-labelledby="fp-title">
+          <div class="fp-stage">
+            <figure class="fp-figure">
+              <button type="button" class="fp-main-btn" id="fp-main-btn" data-gallery="webgis" aria-label="Expand image to full screen">
+                <img id="fp-main-img" src="images/gallery/webgis-0-land-management.webp" alt="Spatial Wings WebGIS Land Management System showing 39,575 cadastral parcels over Biratnagar Municipality" width="1400" height="787" loading="lazy">
+                <span class="fp-expand" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 3H3v6M15 3h6v6M3 15v6h6M21 15v6h-6"/></svg>Expand</span>
+              </button>
+              <figcaption id="fp-caption"><strong>Land Management</strong> &mdash; 39,575 cadastral parcels, searchable by ward and kitta number</figcaption>
+            </figure>
+
+            <div class="fp-thumbs" role="group" aria-label="Choose a WebGIS screen">
+              <button type="button" class="fp-thumb is-active" data-index="0" aria-pressed="true">
+                <img src="images/gallery/thumbs/webgis-0-land-management.webp" alt="" loading="lazy"><span>Land mgmt</span>
+              </button>
+              <button type="button" class="fp-thumb" data-index="1" aria-pressed="false">
+                <img src="images/gallery/thumbs/webgis-1-dashboard.webp" alt="" loading="lazy"><span>Dashboard</span>
+              </button>
+              <button type="button" class="fp-thumb" data-index="2" aria-pressed="false">
+                <img src="images/gallery/thumbs/webgis-2-house-numbering.webp" alt="" loading="lazy"><span>House no.</span>
+              </button>
+              <button type="button" class="fp-thumb" data-index="3" aria-pressed="false">
+                <img src="images/gallery/thumbs/webgis-3-road-network.webp" alt="" loading="lazy"><span>Roads</span>
+              </button>
+              <button type="button" class="fp-thumb" data-index="4" aria-pressed="false">
+                <img src="images/gallery/thumbs/webgis-4-weather.webp" alt="" loading="lazy"><span>Weather</span>
+              </button>
+              <button type="button" class="fp-thumb" data-index="5" aria-pressed="false">
+                <img src="images/gallery/thumbs/webgis-5-login.webp" alt="" loading="lazy"><span>Login</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="fp-body">
+            <p class="fp-label">Flagship project</p>
+            <h3 id="fp-title">Spatial Wings WebGIS for Biratnagar Municipality</h3>
+            <p class="fp-summary">A five-module municipal GIS platform covering land, addresses, surveys, roads and live weather, built end to end in Flask and Leaflet.</p>
+
+            <ul class="fp-metrics" aria-label="Key figures">
+              <li><strong>39,575</strong><span>parcels</span></li>
+              <li><strong>423.1 km</strong><span>roads</span></li>
+              <li><strong>5</strong><span>modules</span></li>
+            </ul>
+
+            <dl class="fp-facts">
+              <div>
+                <dt>Problem</dt>
+                <dd>Land, road and address records lived in disconnected paper and desktop GIS files, with no shared, searchable system.</dd>
+              </div>
+              <div>
+                <dt>Data</dt>
+                <dd>Cadastral parcel sheets, municipal road survey data, drone and satellite imagery, and field-collected house points.</dd>
+              </div>
+              <div>
+                <dt>Build</dt>
+                <dd>Flask backend, Leaflet front end and a GeoJSON data layer, with admin authentication and a bilingual (EN/NP) interface.</dd>
+              </div>
+              <div>
+                <dt>Result</dt>
+                <dd>Parcels and roads are now filterable by ward in one browser-based system.</dd>
+              </div>
+            </dl>
+
+            <div class="fp-links">
+              <a href="https://github.com/abhinandshah/WebGIS-v2" target="_blank" rel="noopener" class="btn btn-primary">View source on GitHub</a>
+              <a href="https://github.com/abhinandshah/WebGIS-v1" target="_blank" rel="noopener" class="fp-secondary">Earlier build: WebGIS v1</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- More projects: each tile opens a multi-image gallery -->
+        <div class="more-head">
+          <h3>More projects</h3>
+          <p>Select a project to browse its images.</p>
+        </div>
+
+        <div class="project-grid">
+          <a class="ptile" href="images/gallery/georef-1.webp" data-gallery="georef">
+            <span class="ptile-media">
+              <img src="images/projects/cadastral-georeferencing.webp" alt="Cadastral parcel boundaries georeferenced over drone orthoimagery" width="900" height="514" loading="lazy">
+              <span class="ptile-count">2 images</span>
+            </span>
+            <span class="ptile-body">
+              <span class="ptile-meta">Jahada · Dhanpalthan · Bagmati · Manthali</span>
+              <span class="ptile-title">Cadastral georeferencing</span>
+              <span class="ptile-desc">Team-based georeferencing of hardcopy cadastral sheets across four municipalities, 445.59&nbsp;km² in total: Jahada 62.38, Dhanpalthan 70.26, Bagmati 101.18 and Manthali 211.77&nbsp;km².</span>
+            </span>
+          </a>
+
+          <a class="ptile" href="images/gallery/house-1-bagmati-plate.webp" data-gallery="housenum">
+            <span class="ptile-media">
+              <img src="images/projects/house-numbering-plate.webp" alt="QR-coded metric house number plate, Bagmati Municipality" width="434" height="415" loading="lazy">
+              <span class="ptile-count">5 images</span>
+            </span>
+            <span class="ptile-body">
+              <span class="ptile-meta">Bagmati · Inaruwa</span>
+              <span class="ptile-title">Metric-based house numbering</span>
+              <span class="ptile-desc">Digital address assignment with QR-coded plates, from the ArcMap numbering interface and attribute data to the finished plates.</span>
+            </span>
+          </a>
+
+          <a class="ptile" href="images/gallery/landuse-1-bagmati.webp" data-gallery="landuse">
+            <span class="ptile-media">
+              <img src="images/projects/landuse-zone-map.webp" alt="Printed land-use zoning map sheet, Bagmati Municipality" width="900" height="1272" loading="lazy">
+              <span class="ptile-count">3 images</span>
+            </span>
+            <span class="ptile-body">
+              <span class="ptile-meta">Bagmati · Manthali</span>
+              <span class="ptile-title">Land-use zone mapping</span>
+              <span class="ptile-desc">Zoning classification and print-ready map sheets, from agricultural and residential to industrial and riverine zones.</span>
+            </span>
+          </a>
+
+          <a class="ptile" href="images/gallery/drone-1-digitization.webp" data-gallery="drone">
+            <span class="ptile-media">
+              <img src="images/projects/drone-digitization.webp" alt="ArcMap digitization of roads, rivers and residential areas along the Butwal to Pokhara corridor" width="900" height="506" loading="lazy">
+              <span class="ptile-count">2 images</span>
+            </span>
+            <span class="ptile-body">
+              <span class="ptile-meta">Butwal&ndash;Pokhara corridor</span>
+              <span class="ptile-title">Drone-based feature digitization</span>
+              <span class="ptile-desc">Imagery acquisition and feature extraction: roads, rivers, houses, forest and agricultural land digitized from drone orthomosaics.</span>
+            </span>
+          </a>
+
+          <a class="ptile" href="images/gallery/tole-1-audit.webp" data-gallery="tole">
+            <span class="ptile-media">
+              <img src="images/projects/tole-audit.webp" alt="Public audit meeting reviewing a printed map with local representatives" width="800" height="568" loading="lazy">
+              <span class="ptile-count">1 image</span>
+            </span>
+            <span class="ptile-body">
+              <span class="ptile-meta">Field survey · Public audit</span>
+              <span class="ptile-title">Street naming &amp; tole mapping</span>
+              <span class="ptile-desc">Field surveys and community audits, where printed maps are reviewed with local representatives before names are finalized.</span>
+            </span>
+          </a>
+
+          <a class="ptile" href="images/gallery/3d-1-settlement.webp" data-gallery="urban3d">
+            <span class="ptile-media">
+              <img src="images/projects/3d-urban-planning.webp" alt="3D settlement layout model for planned urban development" width="900" height="506" loading="lazy">
+              <span class="ptile-count">6 images</span>
+            </span>
+            <span class="ptile-body">
+              <span class="ptile-meta">SketchUp · Enscape · Twinmotion</span>
+              <span class="ptile-title">3D planning &amp; visualization</span>
+              <span class="ptile-desc">Planned settlement, resort, market, industrial park, hospital and incubation-center layouts modeled and rendered in 3D.</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTENT ================= --><section class="section content-section" id="content" aria-labelledby="content-heading">
+  <div class="wrap content-grid">
+    <div>
+      <h2 id="content-heading">Content — Spatial Wings</h2>
+      <p>
+        Alongside project work, I create GIS and mapping content through
+        <strong>Spatial Wings</strong> — tutorials and walkthroughs on GIS,
+        web mapping and geospatial technologies.
+      </p>
+      <a href="https://www.youtube.com/@spatial_wings" target="_blank" rel="noopener" class="btn btn-ghost">Watch on YouTube</a>
+    </div>
+    
+    <!-- This new sidebar wrapper handles the vertical layout -->
+    <div class="content-sidebar">
+      
+      <!-- Clickable YouTube Channel Logo -->
+      <a href="https://www.youtube.com/@spatial_wings" target="_blank" rel="noopener" class="logo-link" aria-label="Visit Spatial Wings YouTube Channel">
+        <img src="images/spatialwings.png" class="content-logo" alt="Spatial Wings Logo" width="150" height="150">
+      </a>
+
+      <!-- YouTube Badge (Now wrapped in a link so it is clickable too!) -->
+      <a href="https://www.youtube.com/@spatial_wings" target="_blank" rel="noopener" class="content-badge">
+        <svg viewBox="0 0 24 24"><path d="M23 7a3 3 0 0 0-2.1-2.1C19 4.4 12 4.4 12 4.4s-7 0-8.9.5A3 3 0 0 0 1 7a31 31 0 0 0 0 10 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5A3 3 0 0 0 23 17a31 31 0 0 0 0-10Z"/><path d="M9.8 15.5 15.8 12 9.8 8.5Z" fill="currentColor" stroke="none"/></svg>
+        <span>@spatial_wings</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section about" id="about" aria-labelledby="about-heading">
+      <div class="wrap about-grid">
+
+        <div class="about-portrait">
+          <div class="sheet-frame photo-frame">
+            <div class="map-tick tick-nw"><span>26.47°N</span></div>
+            <div class="map-tick tick-ne"><span>87.30°E</span></div>
+            <img src="images/headshot.webp" alt="Portrait of Abhinand Shah" loading="lazy">
+          </div>
+          <p class="portrait-caption">Abhinand Shah<br><span>GIS Analyst · Biratnagar, Nepal</span></p>
+        </div>
+
+        <div class="about-main">
+          <h2 id="about-heading">About</h2>
+          <p>
+            I'm a Geomatics Engineering graduate based in Biratnagar, Nepal, working at the
+            intersection of spatial analysis and web-based mapping. I'm drawn to problems
+            where terrain, infrastructure and human activity intersect — and where a clear
+            map can change what a planner decides to do next.
+          </p>
+
+          <h3 class="about-subhead">Experience</h3>
+          <div class="experience-entry">
+            <p class="experience-role">GIS Analyst (Seasonal) — Digi Nirmaan Engineering Pvt. Ltd.</p>
+            <p class="experience-dates">March–August 2025 · April–July 2026</p>
+            <ul class="experience-list">
+              <li>Raster digitization and feature extraction from imagery and orthomosaics</li>
+              <li>Land-use zoning and cadastral inventory across four municipalities</li>
+              <li>Metric-based house numbering with QR-coded address plates</li>
+              <li>Street naming and tole mapping, including field surveys and public audits</li>
+              <li>3D modeling and visualization for planned settlements</li>
+              <li>Cadastral sheet digitization and georeferencing</li>
+              <li>UAV-based surveying and mapping; orthomosaic, DSM, DTM and contour generation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-fact-sheet">
+          <h3>Education</h3>
+          <dl>
+            <div>
+              <dt>2021 – 2024</dt>
+              <dd>Diploma in Geomatics Engineering — Mahanagar Bahuprabidhik Shikshalaya, Biratnagar</dd>
+            </div>
+            <div>
+              <dt>2021</dt>
+              <dd>SEE — Koshi Public Academy</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="wrap contact-grid">
+        <div>
+          <h2 id="contact-heading">Get in touch</h2>
+          <p>Open to GIS analyst roles, spatial data projects, and web mapping collaborations.</p>
+
+          <ul class="contact-list">
+
+            
+            <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="mailto:shahabhinand@gmail.com">shahabhinand@gmail.com</a></p>
+            <p><i class="fas fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+9779827057800">+977 9827057800</a></p>
+            <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Biratnagar, Morang, Nepal</p>
+
+            <!-- <li><a href="mailto:shahabhinand@gmail.com">shahabhinand@gmail.com</a></li>
+            <li><a href="tel:+9779827057800">+977 9827057800</a></li>
+            <li>Biratnagar, Koshi Province, Nepal</li> -->
+          </ul>
+
+          <div class="social-icons">
+              <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+              <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://github.com/abhinandshah" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/abhinand-shah/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="https://www.youtube.com/@spatial_wings" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+              <a href="https://www.tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+            </div>
+
+            <a href="cv-resume.pdf" download class="btn btn2">Download CV</a>
+        
+
+          <ul class="social-list" aria-label="Social profiles">
+            <li><a href="https://www.linkedin.com/in/abhinand-shah/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/abhinandshah" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <!-- Honeypot — hidden from real visitors, filters basic spam bots -->
+          <input type="text" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="logo">
+        <a href="/" aria-label="Home">
+          <!-- <img src="images/abhi.png" class="circular-image" alt="Abhinand Shah logo" width="80" height="80"> -->
+          <img src="images/logo-black.png" class="logo-img logo-light-theme" alt="Abhinand Shah logo" width="100" height="100">
+           <!-- /* Automatically turns white logo in dark mode and dark logo in light mode */ -->
+           <img src="images/logo-white.png" class="logo-img logo-dark-theme" alt="Abhinand Shah logo" width="100" height="100">
+        </a>
+      </div>
+
+      <div class="impact-statement">
+        Building practical, spatial-data-driven solutions for smarter urban planning.
+      </div>
+
+      <div class="footer-columns">
+        <div>
+          <h3>Connect with me</h3>
+          <div class="social-icon">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/abhinand-shah/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/@spatial_wings" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            <a href="https://github.com/abhinandshah" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+
+            <a href="https://www.tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+          </div>
+          <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="mailto:shahabhinand@gmail.com">shahabhinand@gmail.com</a></p>
+          <p><i class="fas fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+9779827057800">+977 9827057800</a></p>
+          <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Biratnagar, Morang, Nepal</p>
+        </div>
+
+        <div class="location">
+          <h3>Location</h3>
+          <p>Biratnagar<br>Morang District,<br>Koshi Province, Nepal</p>
+        </div>
+      </div>
+    </div>
+
+    <div class"wrap pooter-bottom">
+    <div class="copyright">
+      <p>Copyright &copy; <span id="year"></span> <span class="highlight">Abhinand</span> Shah. All rights reserved.</p>
+    </div>
+    </div>
+  </footer>
+
+  <!-- Image gallery lightbox (native <dialog>: Esc closes, focus is trapped) -->
+  <dialog id="lightbox" class="lightbox" aria-label="Project image gallery">
+    <div class="lb-bar">
+      <p class="lb-title" id="lb-title"></p>
+      <button type="button" class="lb-close" id="lb-close" aria-label="Close gallery">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <div class="lb-stage">
+      <button type="button" class="lb-nav lb-prev" id="lb-prev" aria-label="Previous image">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg>
+      </button>
+      <figure class="lb-figure">
+        <img id="lb-img" alt="">
+        <figcaption><span id="lb-caption"></span><span class="lb-count" id="lb-count" aria-live="polite"></span></figcaption>
+      </figure>
+      <button type="button" class="lb-nav lb-next" id="lb-next" aria-label="Next image">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+      </button>
+    </div>
+  </dialog>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
