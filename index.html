@@ -68,8 +68,9 @@
   <header class="site-header" id="site-header">
     <div class="wrap header-inner">
       <a href="#top" class="brand" aria-label="Abhinand Shah — home">
-        <span class="brand-mark" aria-hidden="true">AS</span>
-        <span class="brand-name">Abhinand Shah</span>
+        <img src="images/logo-black.png" class="logo-img logo-light-theme" alt="Abhinand Shah logo" width="100" height="100">
+        <!-- Automatically turns white logo in dark mode and dark logo in light mode -->
+        <img src="images/logo.white.webp" class="logo-img logo-dark-theme" alt="Abhinand Shah logo" width="100" height="100">
       </a>
 
       <nav class="main-nav" aria-label="Primary">
@@ -180,6 +181,7 @@
             <svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 4 5.5 4 9s-1.5 6.5-4 9c-2.5-2.5-4-5.5-4-9s1.5-6.5 4-9Z"/></svg>
             <h3>Web Mapping</h3>
             <ul>
+              <li>HTML · CSS · JavaScript</li>
               <li>Python · Flask</li>
               <li>Leaflet.js · OpenLayers</li>
               <li>GeoJSON</li>
@@ -202,10 +204,10 @@
     <!-- All figures below are real, drawn from delivered project work. -->
     <section class="stats-strip" aria-label="Project figures">
       <div class="wrap stats-grid">
-        <div class="stat"><span class="stat-num">39,575</span><span class="stat-label">cadastral parcels live in one WebGIS</span></div>
-        <div class="stat"><span class="stat-num">423.1 km</span><span class="stat-label">road network mapped &amp; classified</span></div>
-        <div class="stat"><span class="stat-num">445+ km²</span><span class="stat-label">georeferenced across 4 municipalities</span></div>
-        <div class="stat"><span class="stat-num">2</span><span class="stat-label">municipalities on QR-coded house numbering</span></div>
+        <div class="stat"><span class="stat-num">39,575</span><span class="stat-label">Cadastral parcels live in one WebGIS</span></div>
+        <div class="stat"><span class="stat-num">423.1 km</span><span class="stat-label">Road network mapped &amp; classified</span></div>
+        <div class="stat"><span class="stat-num">445+ km²</span><span class="stat-label">Georeferenced across 4 municipalities</span></div>
+        <div class="stat"><span class="stat-num">2</span><span class="stat-label">Municipalities on QR-coded house numbering</span></div>
       </div>
     </section>
 
@@ -404,10 +406,11 @@
       <div class="wrap about-grid">
 
         <div class="about-portrait">
+          <h2>My Photo</h2>
           <div class="sheet-frame photo-frame">
             <div class="map-tick tick-nw"><span>26.47°N</span></div>
             <div class="map-tick tick-ne"><span>87.30°E</span></div>
-            <img src="images/headshot.webp" alt="Portrait of Abhinand Shah" loading="lazy">
+            <img src="images/photo.png" alt="Portrait of Abhinand Shah" loading="lazy">
           </div>
           <p class="portrait-caption">Abhinand Shah<br><span>GIS Analyst · Biratnagar, Nepal</span></p>
         </div>
@@ -473,25 +476,24 @@
           </ul>
 
           <div class="social-icons">
+              <a href="https://www.linkedin.com/in/abhinand-shah/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="https://www.youtube.com/@spatial_wings" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+              <a href="https://github.com/abhinandshah" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
               <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
               <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
               <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-              <a href="https://github.com/abhinandshah" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
-              <a href="https://www.linkedin.com/in/abhinand-shah/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-              <a href="https://www.youtube.com/@spatial_wings" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-              <a href="https://www.tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
-            </div>
-
-            <a href="cv-resume.pdf" download class="btn btn2">Download CV</a>
-        
+          </div>
+             
 
           <ul class="social-list" aria-label="Social profiles">
             <li><a href="https://www.linkedin.com/in/abhinand-shah/" target="_blank" rel="noopener">LinkedIn</a></li>
             <li><a href="https://github.com/abhinandshah" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="cv-resume.pdf" download class="button">Download CV</a></li>
           </ul>
         </div>
 
         <form class="contact-form" id="contact-form" novalidate>
+          <h2>Contact Me</h2>
           <div class="field">
             <label for="name">Your name</label>
             <input id="name" name="name" type="text" autocomplete="name" required>
@@ -511,23 +513,23 @@
         </form>
       </div>
     </section>
-
+  </main>
 
 
 
 
     <!-- FOOTER -->
 
-    <footer class="site-footer">
+  <footer class="site-footer">
     <div class="footer-inner">
-      <div class="logo">
-        <a href="/" aria-label="Home">
-          <!-- <img src="images/abhi.png" class="circular-image" alt="Abhinand Shah logo" width="80" height="80"> -->
-          <img src="images/logo-black.png" class="logo-img logo-light-theme" alt="Abhinand Shah logo" width="100" height="100">
-           <!-- /* Automatically turns white logo in dark mode and dark logo in light mode */ -->
-           <img src="images/logo-white.png" class="logo-img logo-dark-theme" alt="Abhinand Shah logo" width="100" height="100">
-        </a>
-      </div>
+<div class="logo">
+  <a href="/" aria-label="Home">
+    <img src="images/logo-black.png" class="logo-img logo-light-theme" alt="Abhinand Shah logo" width="100" height="100">
+    <!-- Automatically turns white logo in dark mode and dark logo in light mode -->
+    <img src="images/logo.white.webp" class="logo-img logo-dark-theme" alt="Abhinand Shah logo" width="100" height="100">
+  </a>
+</div>
+
 
       <div class="impact-statement">
         Building practical, spatial-data-driven solutions for smarter urban planning.
@@ -537,14 +539,12 @@
         <div>
           <h3>Connect with me</h3>
           <div class="social-icon">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
             <a href="https://www.linkedin.com/in/abhinand-shah/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
             <a href="https://www.youtube.com/@spatial_wings" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
             <a href="https://github.com/abhinandshah" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
-
-            <a href="https://www.tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
           </div>
           <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="mailto:shahabhinand@gmail.com">shahabhinand@gmail.com</a></p>
           <p><i class="fas fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+9779827057800">+977 9827057800</a></p>
@@ -558,12 +558,17 @@
       </div>
     </div>
 
-    <div class"wrap pooter-bottom">
-    <div class="copyright">
+   
+
+    <div class="wrap footer-bottom">
       <p>Copyright &copy; <span id="year"></span> <span class="highlight">Abhinand</span> Shah. All rights reserved.</p>
     </div>
-    </div>
   </footer>
+
+
+
+
+
 
   <!-- Image gallery lightbox (native <dialog>: Esc closes, focus is trapped) -->
   <dialog id="lightbox" class="lightbox" aria-label="Project image gallery">
